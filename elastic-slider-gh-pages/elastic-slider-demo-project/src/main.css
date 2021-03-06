@@ -1,0 +1,36 @@
+.clipped-left {
+    -webkit-clip-path: url(#clipped-left);
+    clip-path: url(#clipped-left);
+}
+.clipped-right {
+    -webkit-clip-path: url(#clipped-right);
+    clip-path: url(#clipped-right);
+}
+
+#image1{
+    background-image: url(../img/Highly-Commended-Alison-Buttigieg.jpg);
+}
+#image2{
+    background-image: url(../img/Highly-Commended-Megan-Lorenz.jpg);
+}
+#image3{
+    background-image: url(../img/Highly-Commended-Yuzuru-Masuda.jpg);
+}
+#image4{
+    background-image: url(../img/WINNER-Julian-Rad1.jpg);
+}
+
+body {
+    background: linear-gradient(rgb(150, 0, 155), rgb(182, 0, 55))
+}
+
+.hero .elastic-slider{
+    cursor: grab;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+}
+.hero .elastic-slider div{
+    background-size: cover;
+    background-position: center;
+}
